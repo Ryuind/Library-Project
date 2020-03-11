@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Ryuind's Library</title>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "style.css" />
+    </head>
+    <script defer type="text/javascript" src="app.js"></script>
+    <body class="body">
+        <h1 class="hone">To began creating your library of books click "New Book Form".</h1>
+        <div class="say"></div>
+        <div class="openTheButton">
+            <button class="openButton" onclick="openForm()" >New Book Form</button>
+        </div>    
+        <div id="loginPopup">
+            <div class="formPopup">
+                <form onsubmit="userBook()" class="myForm">
+                    
+                    <input type="text" class="userBookTitleInput" placeholder="Enter Title"></input>
+                    <br>
+                    <input type="text" class="userBookAuthorInput" placeholder="Enter Author"></input>
+                    <br>
+                    <input type="number" class="userBookPagesInput" placeholder=0></input>
+                    <br>
+                    <div class="ifRead">If you have <br> read the book,</div>
+                    <br>
+                    <div class="readCheck"><p class="readText">Check the box.</p><input type="checkbox" id="userBookReadInput">
+                    </div>
+                    <br>
+                    <input type="submit" class="theBtn" value="Create New Book" onclick="closeForm()"></input>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</html>
+
